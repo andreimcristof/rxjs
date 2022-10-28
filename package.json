@@ -1,0 +1,36 @@
+{
+  "name": "rxjs",
+  "version": "1.0.0",
+  "description": "experiments with RxJS",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc src/*.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreimcristof/rxjs.git"
+  },
+  "keywords": [
+    "rxjs"
+  ],
+  "author": "Andrei Cristof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreimcristof/rxjs/issues"
+  },
+  "homepage": "https://github.com/andreimcristof/rxjs#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.0",
+    "@types/node": "^18.11.7",
+    "jest": "^29.2.2",
+    "nodemon": "^2.0.20",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "rxjs": "^7.5.7"
+  }
+}
